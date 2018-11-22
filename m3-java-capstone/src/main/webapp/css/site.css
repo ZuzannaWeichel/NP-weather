@@ -1,0 +1,103 @@
+.navbar-nav {
+	flex-direction: row !important;
+}
+.navbar-nav .nav-link {
+	padding-right: 20px;
+	padding-left: 50px;
+}
+.navbar a:hover {
+	color: #2b97d9 !important;
+	transform:scale(1.1);
+}
+
+body ul  {
+	list-style: none;
+	padding-left: inherit;
+}
+.error {
+	color: red;
+}
+body{
+	background-color: #d8dbe2;
+}
+.main-body{
+	margin: 5%;
+	padding: 5%;
+	background-color: #a9bcd0;
+	border-radius: 20px;
+	
+}
+form .row{
+	text-align: right;
+	padding: 5px;
+}
+label {
+	align-self: center;
+	margin-top: 5px;
+}
+.parkdetails {
+	display:flex;
+	max-width: 100%;
+}
+
+
+.parkInfo{
+	margin: 4% 2% 2% 0%;
+	padding-left: 3%;
+}
+
+ .click:hover{
+	transform:scale(1.01);
+}
+.parkimages img{
+	margin: 2%;
+	border-radius: 22px;
+}
+
+
+
+.frame{
+	border-style: inset; 
+	border-width: 1px;
+	border-color: #373f51; 
+}
+input::placeholder{
+	color: #d8dbe2;
+}
+
+.table td{
+	vertical-align: baseline;
+}
+
+.weather-disp{
+	background-color: #e0eef0;
+	border-radius: 20px;
+	padding: 3%;
+}
+
+.sunAndCloud:hover{
+		transform:scale(1.2);	
+}
+td img {
+	margin-left: 20%;
+
+}
+
+.votes{
+	text-align: center;
+}
+
+.mpp{
+	text-align: center;
+}
+.table{
+	max-width: 90%;
+	margin: 5%;
+}
+
+.author{
+	text-align: right;
+}
+.quote{
+	text-align: right;
+}
